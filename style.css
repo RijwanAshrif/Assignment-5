@@ -1,0 +1,88 @@
+body{
+    background-color: #13141b;
+    background-image: url(background.png);
+    background-color: #2d2013;
+    background-size: 100%;
+    background-position: top;
+}
+h3, h6{
+    color: chocolate;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height: 100px;
+	background-color:#23180d;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+	
+}
+nav ul{
+	display: flex;
+}
+.toggle{
+	display: none;
+}
+ 
+nav ul a{
+	margin: 30px;
+	color:white;
+	font-size: 20px;
+	font-weight:700;
+    padding-top: 2%;
+}
+nav ul a:hover{
+    color: white;
+    text-decoration: none;
+}
+nav ul a:hover, a.active{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    padding-left: 4%;
+}
+.form-control{
+    background-color: white;
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-privious{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.navbar-toggler {
+    border: none;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+.design{
+    display: grid;
+    width: 30%;
+    float: left;
+    height: 100%;
+    margin: 1%;
+}
+.decoration{
+    color: chocolate;
+    text-align: center;
+}
